@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Smith's Firm</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Smith's Firm</div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="hamburger-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class="services">
+            <h1>Our Services</h1>
+            <ul>
+                <li>
+                    <i class="fa fa-briefcase"></i>
+                    <h3>Business Law</h3>
+                    <p>Expert legal advice for your business</p>
+                </li>
+                <li>
+                    <i class="fa fa-law"></i>
+                    <h3>Personal Injury</h3>
+                    <p>Compensation for your injuries</p>
+                </li>
+                <li>
+                    <i class="fa fa-home"></i>
+                    <h3>Real Estate</h3>
+                    <p>Expert advice for your property needs</p>
+                </li>
+            </ul>
+        </section>
+        <section class="practice-areas">
+            <h2>Our Practice Areas</h2>
+            <ul>
+                <li>
+                    <i class="fa fa-briefcase"></i>
+                    <h3>Business Law</h3>
+                    <p>Expert legal advice for your business</p>
+                </li>
+                <li>
+                    <i class="fa fa-law"></i>
+                    <h3>Personal Injury</h3>
+                    <p>Compensation for your injuries</p>
+                </li>
+                <li>
+                    <i class="fa fa-home"></i>
+                    <h3>Real Estate</h3>
+                    <p>Expert advice for your property needs</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Smith's Firm</p>
+        <ul>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://www.twitter.com">Twitter</a></li>
+            <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+        </ul>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/navigation.js"></script>
+</body>
+</html>
